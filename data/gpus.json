@@ -1,0 +1,106 @@
+[
+  {
+    "id": "gpu-1",
+    "category": "gpus",
+    "name": "GeForce RTX 4060 · Demo",
+    "brand": "NVIDIA",
+    "price": 13500,
+    "image": "assets/icons/gpus.svg",
+    "description": "8 ГБ · 115 Вт · 240 мм",
+    "specs": {
+      "vramGB": 8,
+      "powerW": 115,
+      "demoIndex": 65
+    },
+    "compatibility": {
+      "lengthMm": 240,
+      "widthMm": 125,
+      "cableClearanceMm": 25,
+      "slots": 2,
+      "connectors": {
+        "pcie8": 1
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "gpu-2",
+    "category": "gpus",
+    "name": "GeForce RTX 4070 SUPER · Demo",
+    "brand": "NVIDIA",
+    "price": 24500,
+    "image": "assets/icons/gpus.svg",
+    "description": "12 ГБ · 220 Вт · 300 мм",
+    "specs": {
+      "vramGB": 12,
+      "powerW": 220,
+      "demoIndex": 115
+    },
+    "compatibility": {
+      "lengthMm": 300,
+      "widthMm": 135,
+      "cableClearanceMm": 35,
+      "slots": 3,
+      "connectors": {
+        "hpwr16": 1
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "gpu-3",
+    "category": "gpus",
+    "name": "GeForce RTX 4080 SUPER · Demo",
+    "brand": "NVIDIA",
+    "price": 47000,
+    "image": "assets/icons/gpus.svg",
+    "description": "16 ГБ · 320 Вт · 340 мм",
+    "specs": {
+      "vramGB": 16,
+      "powerW": 320,
+      "demoIndex": 160
+    },
+    "compatibility": {
+      "lengthMm": 340,
+      "widthMm": 150,
+      "cableClearanceMm": 35,
+      "slots": 4,
+      "connectors": {
+        "hpwr16": 1
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "gpu-4",
+    "category": "gpus",
+    "name": "Radeon RX 7800 XT · Demo",
+    "brand": "AMD",
+    "price": 21900,
+    "image": "assets/icons/gpus.svg",
+    "description": "16 ГБ · 263 Вт · 325 мм",
+    "specs": {
+      "vramGB": 16,
+      "powerW": 263,
+      "demoIndex": 108
+    },
+    "compatibility": {
+      "lengthMm": 325,
+      "widthMm": 140,
+      "cableClearanceMm": 25,
+      "slots": 3,
+      "connectors": {
+        "pcie8": 2
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

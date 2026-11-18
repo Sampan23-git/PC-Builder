@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="uk" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0e15" />
+    <meta
+      name="description"
+      content="Pancake PC — навчальний конфігуратор ПК із перевіркою сумісності, каталогом і калькуляторами."/>
+    <title>Калькулятори — Pancake PC</title>
+    <link rel="icon" href="assets/icons/logo.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/builder.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="vendor/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти до вмісту</a>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg container" aria-label="Головна навігація">
+        <a class="navbar-brand" href="index.html" data-route
+          ><img src="assets/icons/logo.jpg" width="28" height="28" alt="" />Pancake PC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+          aria-controls="navigation"
+          aria-expanded="false"
+          aria-label="Відкрити меню">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" data-route>Головна</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="builder.html" data-route>Конфігуратор</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="components.html" data-route>Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html" data-route>Порівняння</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="benchmarks.html" data-route>Калькулятори</a>
+            </li>
+          </ul>
+          <a class="btn btn-primary nav-build" href="builder.html" data-route
+            >Моя збірка <span id="nav-count">0/8</span></a
+          >
+        </div>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="container loading">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Завантаження</span>
+        </div>
+        <h1 class="mt-4">Калькулятори</h1>
+        <p>Готуємо каталог комплектуючих…</p>
+        <noscript>Для конфігуратора потрібен JavaScript. Увімкніть його в браузері.</noscript>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <a href="index.html" data-route class="navbar-brand"
+            ><img src="assets/icons/logo.jpg" width="28" height="28" alt="" />Pancake PC</a
+          >
+          <div class="footer-links">
+            <a href="builder.html" data-route>Конфігуратор</a
+            ><a href="components.html" data-route>Каталог</a
+            ><a href="compare.html" data-route>Порівняння</a
+            ><a href="benchmarks.html" data-route>Калькулятори</a>
+          </div>
+        </div>
+        <p class="footer-note">
+          Навчальний PC Builder · Ціни, характеристики та FPS — демонстраційні. Збірка зберігається
+          лише до оновлення вкладки.
+        </p>
+      </div>
+    </footer>
+    <dialog id="picker" aria-labelledby="picker-title">
+      <div class="dialog-head">
+        <h2 id="picker-title">Обрати комплектуючу</h2>
+        <button class="close-dialog" data-close="picker" aria-label="Закрити вибір">×</button>
+      </div>
+      <div id="picker-body"></div>
+    </dialog>
+    <dialog id="details" aria-labelledby="details-title">
+      <div class="dialog-head">
+        <h2 id="details-title">Характеристики</h2>
+        <button class="close-dialog" data-close="details" aria-label="Закрити характеристики">
+          ×
+        </button>
+      </div>
+      <div id="details-body"></div>
+    </dialog>
+    <div id="toast" class="toast-box" role="status" aria-live="polite"></div>
+  </body>
+</html>

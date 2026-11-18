@@ -1,0 +1,22 @@
+{
+  "name": "pc-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "playwright test",
+    "format": "prettier --write \"*.html\" \"css/*.css\" \"js/*.js\" \"tests/*.js\" \"*.json\" \"*.md\" \"*.js\" \"*.cjs\""
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 100
+  }
+}

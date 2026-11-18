@@ -1,0 +1,257 @@
+.preset-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.preset-tabs .btn {
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.builder-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(300px, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.parts-list {
+  display: grid;
+  gap: 12px;
+}
+.part-row {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  gap: 15px;
+  align-items: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  padding: 16px;
+}
+.part-row > img {
+  width: 52px;
+  height: 52px;
+}
+.part-info {
+  min-width: 0;
+}
+.part-info h3 {
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 3px 0 5px;
+  letter-spacing: 0;
+}
+.part-info p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+.part-meta {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+}
+.part-meta strong {
+  font-size: 14px;
+  white-space: nowrap;
+}
+.part-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 9px;
+}
+.part-buttons button {
+  min-height: 36px;
+  font-size: 12px;
+  padding: 6px 9px;
+}
+.part-buttons .remove {
+  color: var(--muted);
+  background: none;
+  border: 0;
+  text-decoration: underline;
+}
+.quantity {
+  width: 64px;
+  min-height: 36px;
+  font-size: 12px;
+}
+.builder-summary {
+  padding: 24px;
+  position: sticky;
+  top: 24px;
+}
+.builder-summary h2 {
+  font-size: 22px;
+}
+.readiness {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin: 24px 0;
+}
+.readiness p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 7px 0 0;
+}
+.readiness h3 {
+  font-size: 19px;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.ring {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  background: conic-gradient(var(--accent) var(--fill), #2c2541 0);
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.ring:before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border-radius: 50%;
+  background: var(--panel);
+}
+.ring div {
+  position: relative;
+  text-align: center;
+}
+.ring strong {
+  display: block;
+  line-height: 1.1;
+  font-size: 31px;
+}
+.ring span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.summary-status {
+  background: var(--panel-2);
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.build-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 22px 0 14px;
+}
+.build-total span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.build-total strong {
+  font-size: 29px;
+  letter-spacing: -1px;
+}
+.summary-fps {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  margin-top: 24px;
+}
+.summary-fps h3 {
+  font-size: 15px;
+  letter-spacing: 0;
+}
+.summary-fps .metric-head {
+  font-size: 12px;
+}
+.summary-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.summary-stats dt {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.summary-stats dd {
+  font-size: 15px;
+  margin: 4px 0 0;
+  font-weight: 600;
+}
+.compatibility-panel {
+  margin-top: 30px;
+  padding: 24px;
+}
+.compatibility-panel h2 {
+  font-size: 23px;
+}
+.checks {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+.checks li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.check-symbol {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--panel-2);
+  font-weight: 700;
+}
+.checks .ok .check-symbol {
+  color: var(--good);
+}
+.checks .error .check-symbol {
+  color: var(--bad);
+}
+.checks .warning .check-symbol {
+  color: var(--warn);
+}
+.checks .unknown .check-symbol {
+  color: #acb6d3;
+}
+.bios-row {
+  max-width: 360px;
+  margin-top: 20px;
+}
+.mobile-total {
+  display: none;
+}
+.builder-note {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 22px;
+}
+.picker-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.picker-results .product-actions {
+  grid-template-columns: 1fr;
+}
+.picker-results .compare-action {
+  display: none;
+}

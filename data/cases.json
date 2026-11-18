@@ -1,0 +1,170 @@
+[
+  {
+    "id": "case-1",
+    "category": "cases",
+    "name": "Air Mini · Demo",
+    "brand": "ForgeLab",
+    "price": 2400,
+    "image": "assets/icons/cases.svg",
+    "description": "mATX · GPU до 280 мм",
+    "specs": {
+      "powerW": 6
+    },
+    "compatibility": {
+      "psuFormats": [
+        "ATX"
+      ],
+      "expansionSlots": 4,
+      "driveBays25": 2,
+      "gpuWidthMm": 155,
+      "psuLengthMm": 180,
+      "boardFormats": [
+        "mATX",
+        "ITX"
+      ],
+      "gpuLengthMm": 280,
+      "coolerHeightMm": 155,
+      "radiators": {
+        "front": {
+          "sizes": [
+            120,
+            240
+          ],
+          "maxThicknessMm": 55
+        }
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "case-2",
+    "category": "cases",
+    "name": "H5 Flow · Demo",
+    "brand": "NZXT",
+    "price": 3900,
+    "image": "assets/icons/cases.svg",
+    "description": "ATX · GPU до 365 мм",
+    "specs": {
+      "powerW": 8
+    },
+    "compatibility": {
+      "psuFormats": [
+        "ATX"
+      ],
+      "expansionSlots": 7,
+      "driveBays25": 2,
+      "gpuWidthMm": 185,
+      "psuLengthMm": 180,
+      "boardFormats": [
+        "ATX",
+        "mATX",
+        "ITX"
+      ],
+      "gpuLengthMm": 365,
+      "coolerHeightMm": 165,
+      "radiators": {
+        "front": {
+          "sizes": [
+            120,
+            240,
+            280
+          ],
+          "maxThicknessMm": 60
+        },
+        "top": {
+          "sizes": [
+            120,
+            240
+          ],
+          "maxThicknessMm": 55
+        }
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "case-3",
+    "category": "cases",
+    "name": "Studio Air · Demo",
+    "brand": "ForgeLab",
+    "price": 6200,
+    "image": "assets/icons/cases.svg",
+    "description": "ATX · GPU до 420 мм",
+    "specs": {
+      "powerW": 12
+    },
+    "compatibility": {
+      "psuFormats": [
+        "ATX"
+      ],
+      "expansionSlots": 7,
+      "driveBays25": 4,
+      "gpuWidthMm": 200,
+      "psuLengthMm": 220,
+      "boardFormats": [
+        "ATX",
+        "mATX",
+        "ITX"
+      ],
+      "gpuLengthMm": 420,
+      "coolerHeightMm": 180,
+      "radiators": {
+        "front": {
+          "sizes": [
+            120,
+            240,
+            280,
+            360
+          ],
+          "maxThicknessMm": 70
+        },
+        "top": {
+          "sizes": [
+            120,
+            240,
+            280,
+            360
+          ],
+          "maxThicknessMm": 65
+        }
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "case-4",
+    "category": "cases",
+    "name": "Pocket ITX · Demo",
+    "brand": "ForgeLab",
+    "price": 3400,
+    "image": "assets/icons/cases.svg",
+    "description": "ITX · GPU до 250 мм",
+    "specs": {
+      "powerW": 4
+    },
+    "compatibility": {
+      "psuFormats": [
+        "SFX"
+      ],
+      "expansionSlots": 2,
+      "driveBays25": 1,
+      "gpuWidthMm": 150,
+      "psuLengthMm": 120,
+      "boardFormats": [
+        "ITX"
+      ],
+      "gpuLengthMm": 250,
+      "coolerHeightMm": 70,
+      "radiators": {}
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

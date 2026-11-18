@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ssd-1",
+    "category": "storage",
+    "name": "NV2 1 ТБ · Demo",
+    "brand": "Kingston",
+    "price": 2300,
+    "image": "assets/icons/storage.svg",
+    "description": "1 ТБ · NVMe",
+    "specs": {
+      "capacityGB": 1000,
+      "readMBs": 3500,
+      "powerW": 5
+    },
+    "compatibility": {
+      "interface": "NVMe",
+      "length": 2280
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ssd-2",
+    "category": "storage",
+    "name": "990 PRO 1 ТБ · Demo",
+    "brand": "Samsung",
+    "price": 5900,
+    "image": "assets/icons/storage.svg",
+    "description": "1 ТБ · NVMe",
+    "specs": {
+      "capacityGB": 1000,
+      "readMBs": 7450,
+      "powerW": 8
+    },
+    "compatibility": {
+      "interface": "NVMe",
+      "length": 2280
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ssd-3",
+    "category": "storage",
+    "name": "990 PRO 2 ТБ · Demo",
+    "brand": "Samsung",
+    "price": 8200,
+    "image": "assets/icons/storage.svg",
+    "description": "2 ТБ · NVMe",
+    "specs": {
+      "capacityGB": 2000,
+      "readMBs": 7450,
+      "powerW": 9
+    },
+    "compatibility": {
+      "interface": "NVMe",
+      "length": 2280
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ssd-4",
+    "category": "storage",
+    "name": "MX500 1 ТБ · Demo",
+    "brand": "Crucial",
+    "price": 2700,
+    "image": "assets/icons/storage.svg",
+    "description": "1 ТБ · SATA",
+    "specs": {
+      "capacityGB": 1000,
+      "readMBs": 560,
+      "powerW": 4
+    },
+    "compatibility": {
+      "interface": "SATA",
+      "sizeInch": 2.5
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

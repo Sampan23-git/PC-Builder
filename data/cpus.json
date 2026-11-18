@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cpu-1",
+    "category": "cpus",
+    "name": "Ryzen 5 5600",
+    "brand": "AMD",
+    "price": 4900,
+    "image": "assets/icons/cpus.svg",
+    "description": "6 ядер · 12 потоків · AM4",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "powerW": 88,
+      "demoIndex": 72
+    },
+    "compatibility": {
+      "socket": "AM4"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cpu-2",
+    "category": "cpus",
+    "name": "Ryzen 7 7800X3D",
+    "brand": "AMD",
+    "price": 15900,
+    "image": "assets/icons/cpus.svg",
+    "description": "8 ядер · 16 потоків · AM5",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "powerW": 120,
+      "demoIndex": 125
+    },
+    "compatibility": {
+      "socket": "AM5"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cpu-3",
+    "category": "cpus",
+    "name": "Core i7-14700K",
+    "brand": "Intel",
+    "price": 17800,
+    "image": "assets/icons/cpus.svg",
+    "description": "20 ядер · 28 потоків · LGA1700",
+    "specs": {
+      "cores": 20,
+      "threads": 28,
+      "powerW": 253,
+      "demoIndex": 132
+    },
+    "compatibility": {
+      "socket": "LGA1700"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cpu-4",
+    "category": "cpus",
+    "name": "Ryzen 5 7600",
+    "brand": "AMD",
+    "price": 8200,
+    "image": "assets/icons/cpus.svg",
+    "description": "6 ядер · 12 потоків · AM5",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "powerW": 88,
+      "demoIndex": 100
+    },
+    "compatibility": {
+      "socket": "AM5"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

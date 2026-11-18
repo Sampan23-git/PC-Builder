@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ram-1",
+    "category": "ram",
+    "name": "FURY 16 ГБ · Demo",
+    "brand": "Kingston",
+    "price": 1800,
+    "image": "assets/icons/ram.svg",
+    "description": "2 × 8 ГБ · DDR4-3200",
+    "specs": {
+      "capacityGB": 16,
+      "speedMHz": 3200,
+      "powerW": 6
+    },
+    "compatibility": {
+      "memoryType": "DDR4",
+      "modules": 2,
+      "heightMm": 34,
+      "profile": "XMP"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ram-2",
+    "category": "ram",
+    "name": "FURY 32 ГБ · Demo",
+    "brand": "Kingston",
+    "price": 5200,
+    "image": "assets/icons/ram.svg",
+    "description": "2 × 16 ГБ · DDR5-6000",
+    "specs": {
+      "capacityGB": 32,
+      "speedMHz": 6000,
+      "powerW": 10
+    },
+    "compatibility": {
+      "memoryType": "DDR5",
+      "modules": 2,
+      "heightMm": 35,
+      "profile": "EXPO"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ram-3",
+    "category": "ram",
+    "name": "Vengeance 64 ГБ · Demo",
+    "brand": "Corsair",
+    "price": 8900,
+    "image": "assets/icons/ram.svg",
+    "description": "2 × 32 ГБ · DDR5-5600",
+    "specs": {
+      "capacityGB": 64,
+      "speedMHz": 5600,
+      "powerW": 12
+    },
+    "compatibility": {
+      "memoryType": "DDR5",
+      "modules": 2,
+      "heightMm": 44,
+      "profile": "XMP"
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "ram-4",
+    "category": "ram",
+    "name": "Value 16 ГБ · Demo",
+    "brand": "Crucial",
+    "price": 2100,
+    "image": "assets/icons/ram.svg",
+    "description": "1 × 16 ГБ · DDR5-4800",
+    "specs": {
+      "capacityGB": 16,
+      "speedMHz": 4800,
+      "powerW": 4
+    },
+    "compatibility": {
+      "memoryType": "DDR5",
+      "modules": 1,
+      "heightMm": 31,
+      "profile": null
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

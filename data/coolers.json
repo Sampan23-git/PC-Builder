@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cooler-1",
+    "category": "coolers",
+    "name": "Air 120 · Demo",
+    "brand": "ForgeLab",
+    "price": 1100,
+    "image": "assets/icons/coolers.svg",
+    "description": "Повітряний · 150 мм",
+    "specs": {
+      "powerW": 3
+    },
+    "compatibility": {
+      "sockets": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "type": "air",
+      "heightMm": 150,
+      "ramClearanceMm": 40,
+      "coolingW": 150
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cooler-2",
+    "category": "coolers",
+    "name": "Peerless Assassin 120 · Demo",
+    "brand": "Thermalright",
+    "price": 1900,
+    "image": "assets/icons/coolers.svg",
+    "description": "Повітряний · 157 мм",
+    "specs": {
+      "powerW": 5
+    },
+    "compatibility": {
+      "sockets": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "type": "air",
+      "heightMm": 157,
+      "ramClearanceMm": 42,
+      "coolingW": 200
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cooler-3",
+    "category": "coolers",
+    "name": "Liquid 360 · Demo",
+    "brand": "ForgeLab",
+    "price": 5200,
+    "image": "assets/icons/coolers.svg",
+    "description": "Рідинний · 360 мм · зверху",
+    "specs": {
+      "powerW": 12
+    },
+    "compatibility": {
+      "sockets": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "type": "liquid",
+      "mount": "top",
+      "radiatorMm": 360,
+      "radiatorThicknessMm": 27,
+      "fanThicknessMm": 25,
+      "coolingW": 300
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "cooler-4",
+    "category": "coolers",
+    "name": "Liquid 240 Front · Demo",
+    "brand": "ForgeLab",
+    "price": 3300,
+    "image": "assets/icons/coolers.svg",
+    "description": "Рідинний · 240 мм · спереду",
+    "specs": {
+      "powerW": 9
+    },
+    "compatibility": {
+      "sockets": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "type": "liquid",
+      "mount": "front",
+      "radiatorMm": 240,
+      "radiatorThicknessMm": 30,
+      "fanThicknessMm": 25,
+      "coolingW": 230
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]

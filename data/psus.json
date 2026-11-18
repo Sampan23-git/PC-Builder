@@ -1,0 +1,110 @@
+[
+  {
+    "id": "psu-1",
+    "category": "psus",
+    "name": "Bronze 550 · Demo",
+    "brand": "ForgeLab",
+    "price": 2200,
+    "image": "assets/icons/psus.svg",
+    "description": "550 Вт · ATX · Bronze",
+    "specs": {
+      "watts": 550,
+      "powerW": 0,
+      "efficiency": "Bronze"
+    },
+    "compatibility": {
+      "formFactor": "ATX",
+      "lengthMm": 140,
+      "eps8": 1,
+      "sataPower": 3,
+      "connectors": {
+        "pcie8": 2,
+        "hpwr16": 0
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "psu-2",
+    "category": "psus",
+    "name": "RM750e · Demo",
+    "brand": "Corsair",
+    "price": 5400,
+    "image": "assets/icons/psus.svg",
+    "description": "750 Вт · ATX · Gold",
+    "specs": {
+      "watts": 750,
+      "powerW": 0,
+      "efficiency": "Gold"
+    },
+    "compatibility": {
+      "formFactor": "ATX",
+      "lengthMm": 140,
+      "eps8": 2,
+      "sataPower": 6,
+      "connectors": {
+        "pcie8": 3,
+        "hpwr16": 1
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "psu-3",
+    "category": "psus",
+    "name": "Studio 1000 · Demo",
+    "brand": "ForgeLab",
+    "price": 7900,
+    "image": "assets/icons/psus.svg",
+    "description": "1000 Вт · ATX · Gold",
+    "specs": {
+      "watts": 1000,
+      "powerW": 0,
+      "efficiency": "Gold"
+    },
+    "compatibility": {
+      "formFactor": "ATX",
+      "lengthMm": 180,
+      "eps8": 2,
+      "sataPower": 8,
+      "connectors": {
+        "pcie8": 4,
+        "hpwr16": 1
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  },
+  {
+    "id": "psu-4",
+    "category": "psus",
+    "name": "Compact 450 · Demo",
+    "brand": "ForgeLab",
+    "price": 3200,
+    "image": "assets/icons/psus.svg",
+    "description": "450 Вт · SFX · Bronze",
+    "specs": {
+      "watts": 450,
+      "powerW": 0,
+      "efficiency": "Bronze"
+    },
+    "compatibility": {
+      "formFactor": "SFX",
+      "lengthMm": 100,
+      "eps8": 1,
+      "sataPower": 2,
+      "connectors": {
+        "pcie8": 1,
+        "hpwr16": 0
+      }
+    },
+    "dataKind": "demo",
+    "dataNote": "Демонстраційні дані, не специфікація виробника.",
+    "currency": "UAH"
+  }
+]
